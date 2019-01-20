@@ -10,7 +10,5 @@
   "license": "ISC",
   "dependencies": {
     "phantom": "^6.0.3",
-    "phantomjs-prebuilt": "^2.1.16",
-    "webdriverio": "^5.3.5"
   }
 }
