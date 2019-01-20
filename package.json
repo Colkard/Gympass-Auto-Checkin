@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "phantom": "^6.0.3",
+    "phantom": "^6.0.3"
   }
 }
