@@ -1,33 +1,7 @@
 module.exports = {
-    api_url: 'https://crossfitboxcastelldefels.aimharder.com/api',
+    checkin_url: 'https://www.gympass.com/end-user/es/api/access-code/',
     login_url: 'https://www.gympass.com/es/personas/entrar',
-    iCountDaysToBook: 3,
-    iBoxID: "9283",
-    aDaysToBook: [
-        {
-            Day: 1,
-            Time: "21:00 - 22:00",
-            ClassName: "WOD"
-        },
-        {
-            Day: 2,
-            Time: "21:00 - 22:00",
-            ClassName: "Barbell Conditioning"
-        },
-        {
-            Day: 3,
-            Time: "20:30 - 21:30",
-            ClassName: "WOD"
-        },
-        {
-            Day: 4,
-            Time: "20:30 - 21:30",
-            ClassName: "Weightlifting"
-        },
-        {
-            Day: 5,
-            Time: "18:30 - 19:30",
-            ClassName: "WOD"
-        },
-    ]
+    sGymName: "crossfit-box-castelldefels-castelldefels",
+    iProductID: 59734,
+    oGymCoords: {"lat":41.284016,"lon":1.9877777}
 };
