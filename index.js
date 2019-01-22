@@ -4,10 +4,7 @@ var _ = require('lodash');
 const cheerio = require('cheerio');
 
 var config = require('./Config');
-console.log(process.env.email);
-console.log(encodeURIComponent(process.env.email));
-console.log(process.env.pass);
-console.log(encodeURIComponent(process.env.pass));
+
 var aCookies, sCSRFToken;
 var login1 = (fnSuccess, fnError) => {
   request(config.login_url, function(error, response, body) {
